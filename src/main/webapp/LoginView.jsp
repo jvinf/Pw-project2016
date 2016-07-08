@@ -142,21 +142,20 @@
 				
 			<div> 	
 				<span>Email</span>
-				<input type="text"> 
+				<input name="usuario" type="text" > 
 			</div>
 			<div> 
 				<span >Senha</span>
-				<input type="password">
+				<input name="senha" type="password" >
 			</div>				
-				<input type="submit" value="Login"> 
+				<input name="operacao" type="submit" value="Entrar"> 
+				
 			</form>
-		</div>
-		<div class="col-md-4 left-account ">
-			<a href="single.html"><img class="img-responsive " src="images/polo1.jpg" alt=""></a>
-			<div class="five">
-			<h2>25% </h2><span>discount</span>
-			</div>
+			<b>${msg}</b>
+			<br>
 			<a href="register.html" class="create">Crie uma conta</a>
+		</div>
+
 <div class="clearfix"> </div>
 		</div>
 	<div class="clearfix"> </div>
