@@ -1,4 +1,6 @@
 <!DOCTYPE html>
+<%@page import="project2016.LoginController"%>
+<%@page import="java.util.List"%>
 <html>
 <head>
 	<title>Men's Place</title> <link rel="icon" href="images/men.png" type="image/x-icon" />
