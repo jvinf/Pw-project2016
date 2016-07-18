@@ -35,9 +35,9 @@ public class LoginController extends HttpServlet {
 			
 			if (op.equals("entrar")){
 				if (usuario.equals("joao") && senha.equals(321)) {
-					//Obter a sess„o.
+					//Obter a sessao.
 					HttpSession session = req.getSession();
-					//Incluir vari·vel na regi„o de memÛria da sess„o.
+					//Incluir variavel na regiao de memoria da sess√£o.
 					session.setAttribute("usuario", usuario);
 					
 					resp.sendRedirect("index");
@@ -46,7 +46,7 @@ public class LoginController extends HttpServlet {
 			} else if (op.equals("")){
 				msg = "";
 			} else {
-				throw new IllegalArgumentException("OperaÁ„o \"" + op + "\" n„o suportada.");
+				throw new IllegalArgumentException("Opera√ß√£o \"" + op + "\" n√£o suportada.");
 			}
 			req.setAttribute("msg", msg);
 			req.getRequestDispatcher("LoginView.jsp").forward(req, resp);

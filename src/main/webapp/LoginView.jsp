@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<%@page import="project2016.LoginController"%>
+<%@page import="project2016.Usuario"%>
 <%@page import="java.util.List"%>
 <html>
 <head>
@@ -141,7 +141,7 @@
 		<div class="account">
 		<div class="account-pass">
 		<div class="col-md-8 account-top">
-			<form>
+			<form action="login">
 				
 			<div> 	
 				<span>Email</span>
