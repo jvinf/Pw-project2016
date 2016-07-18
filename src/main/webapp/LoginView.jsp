@@ -3,6 +3,7 @@
 <%@page import="java.util.List"%>
 <html>
 <head>
+<meta charset="UTF-8">
 	<title>Men's Place</title> <link rel="icon" href="images/men.png" type="image/x-icon" />
 	<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
@@ -91,7 +92,7 @@
 											<li><a href="products.html">Polos</a></li>
 											<li><a href="products.html">Camisas</a></li>
 											<li><a href="products.html">Casacos</a></li>
-											<li><a href="products.html">CalÃ§as</a></li>
+											<li><a href="products.html">Calças</a></li>
 											<li><a href="products.html">Bermudas</a></li>
 											<li><a href="products.html">Cuecas/Meias</a></li>
 
@@ -101,15 +102,15 @@
 							</div>
 						</div>
 					</li>
-					<li class="grid"><a class="color2" href="#">CalÃ§ados</a>
+					<li class="grid"><a class="color2" href="#">Calçados</a>
 						<div class="mepanel">
 							<div class="row">
 								<div class="col1">
 									<div class="h_nav">
 										<ul>
-											<li><a href="products.html">TÃªnis</a></li>
+											<li><a href="products.html">Tênis</a></li>
 											<li><a href="products.html">Sapatos</a></li>
-											<li><a href="products.html">SandÃ¡lias</a></li>
+											<li><a href="products.html">Sandálias</a></li>
 											<li><a href="products.html">Mocassim</a></li>
 											<li><a href="products.html">Botas</a></li>
 
@@ -119,7 +120,7 @@
 							</div>
 						</div>
 					</li>
-					<li><a class="color4" href="login.html">Login</a></li>
+					<li><a class="color4" href="login">Login</a></li>
 					<li><a class="color6" href="contact.html">Contato</a></li>
 				</ul>
 			</div>
@@ -150,7 +151,7 @@
 				<span >Senha</span>
 				<input name="senha" type="password" >
 			</div>				
-				<input name="operacao" type="submit" value="Entrar"> 
+				<input name="operacao" type="submit" value="entrar"> 
 				
 			</form>
 			<b>${msg}</b>
@@ -172,11 +173,11 @@
 		<div class="footer-top-at">
 
 			<div class="col-md-3 amet-sed">
-				<h4>MAIS INFORMAÃ‡Ã•ES</h4>
+				<h4>MAIS INFORMAÇÕES</h4>
 				<ul class="nav-bottom">
 					<li><a href="#">Como Comprar</a></li>
 					<li><a href="#">FAQ</a></li>
-					<li><a href="contact.html">LocalizaÃ§Ã£o</a></li>
+					<li><a href="contact.html">Localização</a></li>
 					<li><a href="#">Parcerias</a></li>
 				</ul>
 			</div>
@@ -184,7 +185,7 @@
 				<h4>PRODUTOS</h4>
 				<ul class="nav-bottom">
 					<li><a href="#">Roupas</a></li>
-					<li><a href="#">CalÃ§ados</a></li>
+					<li><a href="#">Calçados</a></li>
 				</ul>
 
 			</div>
@@ -208,14 +209,14 @@
 			<div class="col-md-3 amet-sed ">
 				<h4>ENTRE EM CONTATO</h4>
 				<p>Anuar Daher</p>
-				<p>Aparecida de GoiÃ¢nia</p>
+				<p>Aparecida de Goiânia</p>
 				<p>Whatsapp :  (62) 9361-1900</p>
 			</div>
 			<div class="clearfix"> </div>
 		</div>
 	</div>
 	<div class="footer-class">
-		<p> Â© 2016 Men's Place. Todos os direitos reservados</a> </p>
+		<p> © 2016 Men's Place. Todos os direitos reservados</a> </p>
 	</div>
 </div>
 </body>
