@@ -144,12 +144,12 @@
 			<form action="login">
 				
 			<div> 	
-				<span>Email</span>
+				<span>Usuário</span>
 				<input name="usuario" type="text" > 
 			</div>
 			<div> 
 				<span >Senha</span>
-				<input name="senha" type="password" >
+				<input name="senha" type="password">
 			</div>				
 				<input name="operacao" type="submit" value="entrar"> 
 				

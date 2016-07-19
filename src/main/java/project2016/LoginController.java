@@ -1,6 +1,7 @@
 package project2016;
 
 import java.io.IOException;
+import java.io.PrintWriter;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -11,7 +12,7 @@ import javax.servlet.http.HttpSession;
 
 @WebServlet("/login")
 public class LoginController extends HttpServlet {
-	private String valor(HttpServletRequest req, String param, String padrao){
+	/*private String valor(HttpServletRequest req, String param, String padrao){
 			String result = req.getParameter(param);
 			
 			if (result == null){
@@ -23,11 +24,30 @@ public class LoginController extends HttpServlet {
 	private int toInt (HttpServletRequest req, String param, String padrao){
 		return Integer.parseInt(valor(req,param,padrao));
 		
-	}
+	}*/
 	
 	@Override
-	protected void service (HttpServletRequest req, HttpServletResponse resp ) throws ServletException, IOException {
-		try {	
+	protected void service (HttpServletRequest request, HttpServletResponse response ) throws ServletException, IOException {
+		PrintWriter out = response.getWriter();
+		
+		String usuario = request.getParameter("usuario");
+		String senha = request.getParameter("senha");
+	
+	
+		Usuario user = new Usuario();
+		user.setUsuario(usuario);
+		user.setSenha(senha);
+		
+		UsuarioDao userDao = new UsuarioDao();
+		
+		out.println("<html>");
+		out.println("<body>");
+		out.println("usuario="+user.getUsuario()+"senha="+user.getSenha());
+		out.println("</body>");
+		out.println("</html>");
+	}	
+		
+	/*try {	
 			String msg = "";
 			String op = valor(req, "operacao", "");
 			String usuario = valor(req, "usuario" , "");
@@ -54,5 +74,5 @@ public class LoginController extends HttpServlet {
 		} catch (Exception e){
 			e.printStackTrace(resp.getWriter());
 		}
-	}
+	}*/
 }
