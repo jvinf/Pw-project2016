@@ -1,4 +1,6 @@
 <!DOCTYPE html>
+<%@page import="Cliente"%>
+<%@page import="java.util.List"%>
 <html>
 <head>
 	<title>Men's Place</title> <link rel="icon" href="images/men.png" type="image/x-icon" />
@@ -9,7 +11,7 @@
 	<!--theme-style-->
 	<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
 	<!--//theme-style-->
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 	<!--fonts-->
@@ -57,7 +59,7 @@
 
 				<div class="ca-r">
 					<div class="cart box_1">
-						<a href="checkout.html">
+						<a href="checkout.jsp">
 							<h3> <div class="total">
 								<span class="simpleCart_total"></span> </div>
 								<img src="images/cart.png" alt=""/></h3>
@@ -74,7 +76,7 @@
 	<div class="container">
 		<div class="head-top">
 			<div class="logo">
-				<h1><a href="index.html">Men's Place</a></h1>
+				<h1><a href="index.jsp">Men's Place</a></h1>
 			</div>
 			<div class=" h_menu4">
 				<ul class="memenu skyblue">
@@ -85,13 +87,13 @@
 								<div class="col1">
 									<div class="h_nav">
 										<ul>
-											<li><a href="products.html">T-Shirts</a></li>
-											<li><a href="products.html">Polos</a></li>
-											<li><a href="products.html">Camisas</a></li>
-											<li><a href="products.html">Casacos</a></li>
-											<li><a href="products.html">Calças</a></li>
-											<li><a href="products.html">Bermudas</a></li>
-											<li><a href="products.html">Cuecas/Meias</a></li>
+											<li><a href="products.jsp">T-Shirts</a></li>
+											<li><a href="products.jsp">Polos</a></li>
+											<li><a href="products.jsp">Camisas</a></li>
+											<li><a href="products.jsp">Casacos</a></li>
+											<li><a href="products.jsp">Calças</a></li>
+											<li><a href="products.jsp">Bermudas</a></li>
+											<li><a href="products.jsp">Cuecas/Meias</a></li>
 
 										</ul>
 									</div>
@@ -105,11 +107,11 @@
 								<div class="col1">
 									<div class="h_nav">
 										<ul>
-											<li><a href="products.html">Tênis</a></li>
-											<li><a href="products.html">Sapatos</a></li>
-											<li><a href="products.html">Sandálias</a></li>
-											<li><a href="products.html">Mocassim</a></li>
-											<li><a href="products.html">Botas</a></li>
+											<li><a href="products.jsp">Tênis</a></li>
+											<li><a href="products.jsp">Sapatos</a></li>
+											<li><a href="products.jsp">Sandálias</a></li>
+											<li><a href="products.jsp">Mocassim</a></li>
+											<li><a href="products.jsp">Botas</a></li>
 
 										</ul>
 									</div>
@@ -117,8 +119,8 @@
 							</div>
 						</div>
 					</li>
-					<li><a class="color4" href="login.html">Login</a></li>
-					<li><a class="color6" href="contact.html">Contato</a></li>
+					<li><a class="color4" href="login">Login</a></li>
+					<li><a class="color6" href="contact.jsp">Contato</a></li>
 				</ul>
 			</div>
 
@@ -129,39 +131,50 @@
 	<!-- grow -->
 	<div class="grow">
 		<div class="container">
-			<h2>Contato</h2>
+			<h2>Registrar</h2>
 		</div>
 	</div>
 	<!-- grow -->
 <!--content-->
-<div class="contact">
-			
-			<div class="container">
-			<div class="contact-form">
-				
-				<div class="col-md-8 contact-grid">
-					<form method="post" action="">
-					
-						<input type="text" value="Nome" onfocus="if(this.value=='Nome'){this.value='';}" onblur="if (this.value == '') {this.value ='Nome';}" required="required" >
-					
-						<input type="text" value="Email" onfocus="if(this.value=='Email'){this.value='';}" onblur="if (this.value == '') {this.value ='Email';}" required="required" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" >
-						<input type="text" value="Assunto" onfocus="if(this.value=='Assunto'){this.value='';}" onblur="if (this.value == '') {this.value ='Assunto';}"required="required" >
-						
-						<textarea cols="77" rows="6" value=" " onfocus="this.value='';" onblur="if (this.value == '') {this.value = 'Mensagem';}"required="required" >Mensagem</textarea>
-						
-							<input type="submit" value="Enviar">
-						</div>
-					</form>
-				</div>
-				
-				<div class="clearfix"> </div>
+<div class=" container">
+<div class=" register">
+	
+		  	  <form> 
+				 <div class="col-md-6 register-top-grid">
+					<h3>Informações pessoais</h3>
+					 <div>
+						<span>Nome</span>
+						<input name="nome" type="text">
+					 </div>
+					 <div>
+						<span>Sobrenome</span>
+						<input name="sobrenome" type="text">
+					 </div>
+					 <div>
+						 <span>Endereço de Email</span>
+						 <input name="email" type="text">
+					 </div>
+					   <a class="news-letter" href="#">
+						 <label class="checkbox"><input type="checkbox" checked=""><i> </i>Assine para promoções!</label>
+					   </a>
+					 </div>
+				     <div class="col-md-6 register-bottom-grid">
+						    <h3>Informações de senha</h3>
+							 <div>
+								<span>Senha</span>
+								<input name="senha" type="password">
+							 </div>
+							 <div>
+								<span>Confirmar senha</span>
+								<input name="testasenha" type="password">
+							 </div>
+							 <input name="operacao" type="submit" value="Criar">
+							
+					 </div>
+					 <div class="clearfix"> </div>
+				</form>
 			</div>
-			<div class="map">
-				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6430.212473372332!2d-49.254575248991!3d-16.60531494747947!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0000000000000000%3A0x0311fef07b14db5b!2sUniversidade+Federal+de+Goi%C3%A1s+-+Campus+Samambaia!5e0!3m2!1spt-BR!2sin!4v1464720704970" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-			</div>
-		</div>
-		
-	</div>
+</div>
 <!--//content-->
 <div class="footer">
 	<div class="container">
@@ -172,7 +185,7 @@
 				<ul class="nav-bottom">
 					<li><a href="#">Como Comprar</a></li>
 					<li><a href="#">FAQ</a></li>
-					<li><a href="contact.html">Localização</a></li>
+					<li><a href="contact.jsp">Localização</a></li>
 					<li><a href="#">Parcerias</a></li>
 				</ul>
 			</div>

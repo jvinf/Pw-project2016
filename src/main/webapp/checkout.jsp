@@ -9,7 +9,7 @@
 	<!--theme-style-->
 	<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
 	<!--//theme-style-->
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 	<!--fonts-->
@@ -57,7 +57,7 @@
 
 				<div class="ca-r">
 					<div class="cart box_1">
-						<a href="checkout.html">
+						<a href="checkout.jsp">
 							<h3> <div class="total">
 								<span class="simpleCart_total"></span> </div>
 								<img src="images/cart.png" alt=""/></h3>
@@ -74,7 +74,7 @@
 	<div class="container">
 		<div class="head-top">
 			<div class="logo">
-				<h1><a href="index.html">Men's Place</a></h1>
+				<h1><a href="index.jsp">Men's Place</a></h1>
 			</div>
 			<div class=" h_menu4">
 				<ul class="memenu skyblue">
@@ -85,13 +85,13 @@
 								<div class="col1">
 									<div class="h_nav">
 										<ul>
-											<li><a href="products.html">T-Shirts</a></li>
-											<li><a href="products.html">Polos</a></li>
-											<li><a href="products.html">Camisas</a></li>
-											<li><a href="products.html">Casacos</a></li>
-											<li><a href="products.html">Calças</a></li>
-											<li><a href="products.html">Bermudas</a></li>
-											<li><a href="products.html">Cuecas/Meias</a></li>
+											<li><a href="products.jsp">T-Shirts</a></li>
+											<li><a href="products.jsp">Polos</a></li>
+											<li><a href="products.jsp">Camisas</a></li>
+											<li><a href="products.jsp">Casacos</a></li>
+											<li><a href="products.jsp">Calças</a></li>
+											<li><a href="products.jsp">Bermudas</a></li>
+											<li><a href="products.jsp">Cuecas/Meias</a></li>
 
 										</ul>
 									</div>
@@ -105,11 +105,11 @@
 								<div class="col1">
 									<div class="h_nav">
 										<ul>
-											<li><a href="products.html">Tênis</a></li>
-											<li><a href="products.html">Sapatos</a></li>
-											<li><a href="products.html">Sandálias</a></li>
-											<li><a href="products.html">Mocassim</a></li>
-											<li><a href="products.html">Botas</a></li>
+											<li><a href="products.jsp">Tênis</a></li>
+											<li><a href="products.jsp">Sapatos</a></li>
+											<li><a href="products.jsp">Sandálias</a></li>
+											<li><a href="products.jsp">Mocassim</a></li>
+											<li><a href="products.jsp">Botas</a></li>
 
 										</ul>
 									</div>
@@ -118,7 +118,7 @@
 						</div>
 					</li>
 					<li><a class="color4" href="login.html">Login</a></li>
-					<li><a class="color6" href="contact.html">Contato</a></li>
+					<li><a class="color6" href="contact.jsp">Contato</a></li>
 				</ul>
 			</div>
 
@@ -225,7 +225,7 @@
 				 <h3>OPÇÕES</h3>
 				 <h4>CUPONS</h4>
 				 <a class="cpns" href="#">Aplicar Cupom</a>
-				 <p><a href="login.html">Faça Login</a> Para usar um cupom</p>
+				 <p><a href="#">Faça Login</a> Para usar um cupom</p>
 			 </div>
 			</div>
 		
@@ -244,7 +244,7 @@
 					<ul class="nav-bottom">
 						<li><a href="#">Como Comprar</a></li>
 						<li><a href="#">FAQ</a></li>
-						<li><a href="contact.html">Localização</a></li>
+						<li><a href="contact.jsp">Localização</a></li>
 						<li><a href="#">Parcerias</a></li>
 					</ul>
 				</div>

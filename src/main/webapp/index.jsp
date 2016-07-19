@@ -9,7 +9,7 @@
 <!--theme-style-->
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />	
 <!--//theme-style-->
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!--fonts-->
@@ -57,7 +57,7 @@
 
 				<div class="ca-r">
 					<div class="cart box_1">
-						<a href="checkout.html">
+						<a href="checkout.jsp">
 						<h3> <div class="total">
 							<span class="simpleCart_total"></span> </div>
 							<img src="images/cart.png" alt=""/></h3>
@@ -74,7 +74,7 @@
 		<div class="container">
 			<div class="head-top">
 				<div class="logo">
-					<h1><a href="index.html">Men's Place</a></h1>
+					<h1><a href="index.jsp">Men's Place</a></h1>
 				</div>
 		  <div class=" h_menu4">
 				<ul class="memenu skyblue">
@@ -85,13 +85,13 @@
 							<div class="col1">
 								<div class="h_nav">
 									<ul>
-										<li><a href="products.html">T-Shirts</a></li>
-										<li><a href="products.html">Polos</a></li>
-										<li><a href="products.html">Camisas</a></li>
-										<li><a href="products.html">Casacos</a></li>
-										<li><a href="products.html">Calças</a></li>
-										<li><a href="products.html">Bermudas</a></li>
-										<li><a href="products.html">Cuecas/Meias</a></li>
+										<li><a href="products.jsp">T-Shirts</a></li>
+										<li><a href="products.jsp">Polos</a></li>
+										<li><a href="products.jsp">Camisas</a></li>
+										<li><a href="products.jsp">Casacos</a></li>
+										<li><a href="products.jsp">Calças</a></li>
+										<li><a href="products.jsp">Bermudas</a></li>
+										<li><a href="products.jsp">Cuecas/Meias</a></li>
 										
 									</ul>	
 								</div>							
@@ -105,11 +105,11 @@
 							<div class="col1">
 								<div class="h_nav">
 									<ul>
-										<li><a href="products.html">Tênis</a></li>
-										<li><a href="products.html">Sapatos</a></li>
-										<li><a href="products.html">Sandálias</a></li>
-										<li><a href="products.html">Mocassim</a></li>
-										<li><a href="products.html">Botas</a></li>
+										<li><a href="products.jsp">Tênis</a></li>
+										<li><a href="products.jsp">Sapatos</a></li>
+										<li><a href="products.jsp">Sandálias</a></li>
+										<li><a href="products.jsp">Mocassim</a></li>
+										<li><a href="products.jsp">Botas</a></li>
 
 									</ul>	
 								</div>								
@@ -117,8 +117,8 @@
 						  </div>
 						</div>
 			    </li>
-				<li><a class="color4" href="login">Login</a></li>				
-				<li><a class="color6" href="contact.html">Contato</a></li>
+				<li><a class="color4" href="login.jsp">Login</a></li>
+				<li><a class="color6" href="contact.jsp">Contato</a></li>
 			  </ul> 
 			</div>
 				
@@ -188,7 +188,7 @@
 			<div class="content-top-bottom">
 				<h2>Mais Vendidos</h2>
 				<div class="col-md-6 men">
-					<a href="single.html" class="b-link-stripe b-animate-go  thickbox"><img class="img-responsive" src="images/jaquetas.jpg" alt="">
+					<a href="single.jsp" class="b-link-stripe b-animate-go  thickbox"><img class="img-responsive" src="images/jaquetas.jpg" alt="">
 						<div class="b-wrapper">
 											<h3 class="b-animate b-from-top top-in   b-delay03 ">
 												<span>JAQUETAS</span>
@@ -200,7 +200,7 @@
 				</div>
 				<div class="col-md-6">
 					<div class="col-md1 ">
-						<a href="single.html" class="b-link-stripe b-animate-go  thickbox"><img class="img-responsive" src="images/camisas.jpg" alt="">
+						<a href="single.jsp" class="b-link-stripe b-animate-go  thickbox"><img class="img-responsive" src="images/camisas.jpg" alt="">
 							<div class="b-wrapper">
 											<h3 class="b-animate b-from-top top-in1   b-delay03 ">
 												<span>CAMISAS</span>
@@ -211,7 +211,7 @@
 					</div>
 					<div class="col-md2">
 						<div class="col-md-6 men1">
-							<a href="single.html" class="b-link-stripe b-animate-go  thickbox"><img class="img-responsive" src="images/sapatenis.jpg" alt="">
+							<a href="single.jsp" class="b-link-stripe b-animate-go  thickbox"><img class="img-responsive" src="images/sapatenis.jpg" alt="">
 									<div class="b-wrapper">
 											<h3 class="b-animate b-from-top top-in2   b-delay03 ">
 												<span>SAPATENIS</span>
@@ -221,7 +221,7 @@
 							
 						</div>
 						<div class="col-md-6 men2">
-							<a href="single.html" class="b-link-stripe b-animate-go  thickbox"><img class="img-responsive" src="images/tshirts.jpg" alt="">
+							<a href="single.jsp" class="b-link-stripe b-animate-go  thickbox"><img class="img-responsive" src="images/tshirts.jpg" alt="">
 									<div class="b-wrapper">
 											<h3 class="b-animate b-from-top top-in2   b-delay03 ">
 												<span>T-SHIRTS</span>
@@ -239,7 +239,7 @@
 				<h1>Novos Produtos</h1>
 				<div class="grid-in">
 					<div class="col-md-3 grid-top simpleCart_shelfItem">
-						<a href="single.html" class="b-link-stripe b-animate-go  thickbox"><img class="img-responsive" src="images/polo1.jpg" alt="">
+						<a href="single.jsp" class="b-link-stripe b-animate-go  thickbox"><img class="img-responsive" src="images/polo1.jpg" alt="">
 							<div class="b-wrapper">
 								<h3 class="b-animate b-from-left    b-delay03 ">
 									<span>POLO RALPH LAUREN</span>
@@ -249,40 +249,40 @@
 						</a>
 				
 
-					<p><a href="single.html">Polo Ralph Lauren</a></p>
+					<p><a href="single.jsp">Polo Ralph Lauren</a></p>
 					<a href="#" class="item_add"><p class="number item_price"><i> </i>R$178,99</p></a>
 					</div>
 					<div class="col-md-3 grid-top simpleCart_shelfItem">
-						<a href="single.html" class="b-link-stripe b-animate-go  thickbox"><img class="img-responsive" src="images/bota1.jpg" alt="">
+						<a href="single.jsp" class="b-link-stripe b-animate-go  thickbox"><img class="img-responsive" src="images/bota1.jpg" alt="">
 							<div class="b-wrapper">
 											<h3 class="b-animate b-from-left    b-delay03 ">
 												<span>BOTA DEMOCRATA</span>
 											</h3>
 										</div>
 						</a>
-					<p><a href="single.html">Bota Democrata</a></p>
+					<p><a href="single.jsp">Bota Democrata</a></p>
 					<a href="#" class="item_add"><p class="number item_price"><i> </i>R$300,00</p></a>
 					</div>
 					<div class="col-md-3 grid-top simpleCart_shelfItem">
-						<a href="single.html" class="b-link-stripe b-animate-go  thickbox"><img class="img-responsive" src="images/bermuda1.jpg" alt="">
+						<a href="single.jsp" class="b-link-stripe b-animate-go  thickbox"><img class="img-responsive" src="images/bermuda1.jpg" alt="">
 							<div class="b-wrapper">
 											<h3 class="b-animate b-from-left    b-delay03 ">
 												<span>BERMUDA SAM MARINO</span>
 											</h3>
 										</div>
 						</a>
-					<p><a href="single.html">Bermuda Sam Marino</a></p>
+					<p><a href="single.jsp">Bermuda Sam Marino</a></p>
 					<a href="#" class="item_add"><p class="number item_price"><i> </i>R$90,00</p></a>
 					</div>
 					<div class="col-md-3 grid-top">
-						<a href="single.html" class="b-link-stripe b-animate-go  thickbox"><img class="img-responsive" src="images/calca1.jpg" alt="">
+						<a href="single.jsp" class="b-link-stripe b-animate-go  thickbox"><img class="img-responsive" src="images/calca1.jpg" alt="">
 							<div class="b-wrapper">
 											<h3 class="b-animate b-from-left    b-delay03 ">
 												<span>CALÇA DIESEL</span>
 											</h3>
 										</div>
 						</a>
-					<p><a href="single.html">Calça Diesel</a></p>
+					<p><a href="single.jsp">Calça Diesel</a></p>
 					<a href="#" class="item_add"><p class="number item_price"><i> </i>R$160,00</p></a>
 					</div>
 							<div class="clearfix"> </div>
@@ -303,7 +303,7 @@
 				<ul class="nav-bottom">
 						<li><a href="#">Como Comprar</a></li>
 						<li><a href="#">FAQ</a></li>
-						<li><a href="contact.html">Localização</a></li>
+						<li><a href="contact.jsp">Localização</a></li>
 						<li><a href="#">Parcerias</a></li>
 					</ul>	
 				</div>

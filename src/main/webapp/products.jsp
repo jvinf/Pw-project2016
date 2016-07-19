@@ -9,7 +9,7 @@
 	<!--theme-style-->
 	<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
 	<!--//theme-style-->
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 	<!--fonts-->
@@ -57,7 +57,7 @@
 
 				<div class="ca-r">
 					<div class="cart box_1">
-						<a href="checkout.html">
+						<a href="checkout.jsp">
 							<h3> <div class="total">
 								<span class="simpleCart_total"></span> </div>
 								<img src="images/cart.png" alt=""/></h3>
@@ -74,7 +74,7 @@
 	<div class="container">
 		<div class="head-top">
 			<div class="logo">
-				<h1><a href="index.html">Men's Place</a></h1>
+				<h1><a href="index.jsp">Men's Place</a></h1>
 			</div>
 			<div class=" h_menu4">
 				<ul class="memenu skyblue">
@@ -85,13 +85,13 @@
 								<div class="col1">
 									<div class="h_nav">
 										<ul>
-											<li><a href="products.html">T-Shirts</a></li>
-											<li><a href="products.html">Polos</a></li>
-											<li><a href="products.html">Camisas</a></li>
-											<li><a href="products.html">Casacos</a></li>
-											<li><a href="products.html">Calças</a></li>
-											<li><a href="products.html">Bermudas</a></li>
-											<li><a href="products.html">Cuecas/Meias</a></li>
+											<li><a href="products.jsp">T-Shirts</a></li>
+											<li><a href="products.jsp">Polos</a></li>
+											<li><a href="products.jsp">Camisas</a></li>
+											<li><a href="products.jsp">Casacos</a></li>
+											<li><a href="products.jsp">Calças</a></li>
+											<li><a href="products.jsp">Bermudas</a></li>
+											<li><a href="products.jsp">Cuecas/Meias</a></li>
 
 										</ul>
 									</div>
@@ -105,11 +105,11 @@
 								<div class="col1">
 									<div class="h_nav">
 										<ul>
-											<li><a href="products.html">Tênis</a></li>
-											<li><a href="products.html">Sapatos</a></li>
-											<li><a href="products.html">Sandálias</a></li>
-											<li><a href="products.html">Mocassim</a></li>
-											<li><a href="products.html">Botas</a></li>
+											<li><a href="products.jsp">Tênis</a></li>
+											<li><a href="products.jsp">Sapatos</a></li>
+											<li><a href="products.jsp">Sandálias</a></li>
+											<li><a href="products.jsp">Mocassim</a></li>
+											<li><a href="products.jsp">Botas</a></li>
 
 										</ul>
 									</div>
@@ -118,7 +118,7 @@
 						</div>
 					</li>
 					<li><a class="color4" href="login">Login</a></li>
-					<li><a class="color6" href="contact.html">Contato</a></li>
+					<li><a class="color6" href="contact.jsp">Contato</a></li>
 				</ul>
 			</div>
 
@@ -126,148 +126,124 @@
 		</div>
 	</div>
 </div>
+<!-- products -->
 	<!-- grow -->
 	<div class="grow">
 		<div class="container">
-			<h2>Produto Unico</h2>
+			<h2>Products</h2>
 		</div>
 	</div>
 	<!-- grow -->
-		<div class="product">
-			<div class="container">
-				
-				<div class="product-price1">
-				<div class="top-sing">
-				<div class="col-md-7 single-top">	
-						<div class="flexslider">
-			  <ul class="slides">
-			    <li data-thumb="images/si.jpg">
-			        <div class="thumb-image"> <img src="images/si.jpg" data-imagezoom="true" class="img-responsive"> </div>
-			    </li>
-			    <li data-thumb="images/si1.jpg">
-			         <div class="thumb-image"> <img src="images/si1.jpg" data-imagezoom="true" class="img-responsive"> </div>
-			    </li>
-			    <li data-thumb="images/si2.jpg">
-			       <div class="thumb-image"> <img src="images/si2.jpg" data-imagezoom="true" class="img-responsive"> </div>
-			    </li> 
-				 <li data-thumb="images/si3.jpg">
-			       <div class="thumb-image"> <img src="images/si3.jpg" data-imagezoom="true" class="img-responsive"> </div>
-			    </li>
-			  </ul>
-		</div>
-
-	<div class="clearfix"> </div>
-<!-- slide -->
-
-
-						<!-- FlexSlider -->
-  <script defer src="js/jquery.flexslider.js"></script>
-<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
-
-<script>
-// Can also be used with $(document).ready()
-$(window).load(function() {
-  $('.flexslider').flexslider({
-    animation: "slide",
-    controlNav: "thumbnails"
-  });
-});
-</script>
-
-	
-	
-	
-	
-	
-	
-					</div>	
-					<div class="col-md-5 single-top-in simpleCart_shelfItem">
-						<div class="single-para ">
-						<h4>Bota Democrata Stroke</h4>
-							<div class="star-on">
-								
-								<div class="review">
-									
-									
-								</div>
-							<div class="clearfix"> </div>
+	<div class="pro-du">
+		<div class="container">
+			<div class="col-md-9 product1">
+				<div class=" bottom-product">
+					<div class="col-md-6 bottom-cd simpleCart_shelfItem">
+						<div class="product-at ">
+							<a href="single.jsp"><img class="img-responsive" src="images/pi4.jpg" alt="">
+							<div class="pro-grid">
+										<span class="buy-in">Comprar</span>
 							</div>
-							
-							<h5 class="item_price">R$ 387.00</h5>
-							<p>A Bota Democrata Stroke traz uma tendência de moda que chegou há alguns anos mas ainda continua em alta. Confere à você liberdade na hora de combinar com grande estilo e personalidade. </p>
-							<div class="available">
-								<ul>
-									<li>Color
-										<select>
-										<option>Marron</option>
-										<option>Preta</option>
-										<option>Cinza</option>
-									</select></li>
-								<li class="size-in">Size<select>
-									<option>40</option>
-									<option>41</option>
-									<option>42</option>
-									<option>43</option>
-									<option>44</option>
-								</select></li>
-								<div class="clearfix"> </div>
-							</ul>
+						</a>	
 						</div>
-							
-								<a href="#" class="add-cart item_add">Adicionar ao carrinho</a>
-							
+						<p class="tun"><span>Oculos Aviator</span><br>Rayban</p>
+						<div class="ca-rt">
+							<a href="#" class="item_add"><p class="number item_price"><i> </i>R$500,00</p></a>						
 						</div>
+						<div class="clearfix"></div>
 					</div>
-				<div class="clearfix"> </div>
+					<div class="col-md-6 bottom-cd simpleCart_shelfItem">
+						<div class="product-at ">
+							<a href="single.jsp"><img class="img-responsive" src="images/pi1.jpg" alt="">
+							<div class="pro-grid">
+										<span class="buy-in">Comprar</span>
+							</div>
+						</a>	
+						</div>
+						<p class="tun"><span>Chapéu Black</span><br>Zeca Pagodinho</p>
+						<div class="ca-rt">
+							<a href="#" class="item_add"><p class="number item_price"><i> </i>R$200,00</p></a>						
+						</div>
+						<div class="clearfix"></div>					
+					</div>
+						<div class="clearfix"> </div>
 				</div>
-			<!---->
-
-		<div class=" bottom-product">
-					<div class="col-md-4 bottom-cd simpleCart_shelfItem">
+				<div class=" bottom-product">
+					<div class="col-md-6 bottom-cd simpleCart_shelfItem">
 						<div class="product-at ">
-							<a href="#"><img class="img-responsive" src="images/bota1.jpg" alt="">
+							<a href="single.jsp"><img class="img-responsive" src="images/pi5.jpg" alt="">
 							<div class="pro-grid">
 										<span class="buy-in">Comprar</span>
 							</div>
 						</a>	
 						</div>
-						<p class="tun"><span>Bota Arroz Marron</span><br>Vin Diesel</p>
+						<p class="tun"><span>Relógio black and white</span><br>Crank</p>
 						<div class="ca-rt">
-							<a href="#" class="item_add"><p class="number item_price"><i> </i>R$500,00</p></a>						
-						</div>						
+							<a href="#" class="item_add"><p class="number item_price"><i> </i>R$2500,00</p></a>						
+						</div>
+						<div class="clearfix"></div>					
 					</div>
-					<div class="col-md-4 bottom-cd simpleCart_shelfItem">
+					<div class="col-md-6 bottom-cd simpleCart_shelfItem">
 						<div class="product-at ">
-							<a href="#"><img class="img-responsive" src="images/BotaPreta.jpg" alt="">
+							<a href="single.jsp"><img class="img-responsive" src="images/pi.jpg" alt="">
 							<div class="pro-grid">
 										<span class="buy-in">Comprar</span>
 							</div>
 						</a>	
 						</div>
-						<p class="tun"><span>Coturno Preto</span><br>Macboot</p>
+						<p class="tun"><span>Oculos black walk</span><br>Hugo Boss</p>
 						<div class="ca-rt">
-							<a href="#" class="item_add"><p class="number item_price"><i> </i>R$500,00</p></a>						
-						</div>					</div>
-					<div class="col-md-4 bottom-cd simpleCart_shelfItem">
-						<div class="product-at ">
-							<a href="#"><img class="img-responsive" src="images/pi3.jpg" alt="">
-							<div class="pro-grid">
-										<span class="buy-in">Comprar</span>
-							</div>
-						</a>	
+							<a href="#" class="item_add"><p class="number item_price"><i> </i>R$1500,00</p></a>						
 						</div>
-						<p class="tun"><span>Bota amarela</span><br>Caterpillar</p>
-						<div class="ca-rt">
-							<a href="#" class="item_add"><p class="number item_price"><i> </i>R$500,00</p></a>						
-						</div>					</div>
+						<div class="clearfix"></div>					
+					</div>
 					<div class="clearfix"> </div>
 				</div>
-</div>
-
-		<div class="clearfix"> </div>
+					
+				
+				</div>
+			<div class="col-md-3 prod-rgt">
+				<div class=" pro-tp">
+					<div class="pl-lft">
+						<a href="single.jsp"><img class="img-responsive" src="images/l2.jpg" alt=""></a>
+					</div>
+					<div class="pl-rgt">
+						<h6><a href="single.jsp">Relogio Diesel Preto</a></h6>
+						<p><a href="single.jsp">R$ 1450,00</a></p>
+					</div>
+						<div class="clearfix"></div>
+				</div>
+				<div class=" pro-tp">
+					<div class="pl-lft">
+						<a href="single.jsp"><img class="img-responsive" src="images/l3.jpg" alt=""></a>
+					</div>
+					<div class="pl-rgt">
+						<h6><a href="single.jsp">Relogio Diesel Couro</a></h6>
+						<p><a href="single.jsp">R$ 1450,00</a></p>
+					</div>
+						<div class="clearfix"></div>
+				</div>
+				<div class=" pro-tp">
+					<div class="pl-lft">
+						<a href="single.jsp"><img class="img-responsive" src="images/l1.jpg" alt=""></a>
+					</div>
+					<div class="pl-rgt">
+						<h6><a href="single.jsp">Relogio Diesel San marino</a></h6>
+						<p><a href="single.jsp">R$ 1450,00</a></p>
+					</div>
+						<div class="clearfix"></div>
+				</div>
+				<div class="pr-btm">
+				<h4>O que o cliente diz sobre o site ?</h4>
+					<img class="img-responsive" src="images/cliente.jpeg" alt="">
+					<h6>Dilma</h6>
+					<p>Site otimo, com otima navegação, pensado exatamente para o publico masculino, tem uma interface agradavel, estou procurando um presente para meu filho.</p>
+				</div>
+			</div>
+				<div class="clearfix"></div>
 		</div>
-		</div>
-<!--//content-->
+	</div>
+<!-- products -->
 <div class="footer">
 	<div class="container">
 		<div class="footer-top-at">
@@ -277,7 +253,7 @@ $(window).load(function() {
 				<ul class="nav-bottom">
 					<li><a href="#">Como Comprar</a></li>
 					<li><a href="#">FAQ</a></li>
-					<li><a href="contact.html">Localização</a></li>
+					<li><a href="contact.jsp">Localização</a></li>
 					<li><a href="#">Parcerias</a></li>
 				</ul>
 			</div>

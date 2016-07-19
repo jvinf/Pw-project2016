@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+<meta charset="UTF-8">
 	<title>Men's Place</title> <link rel="icon" href="images/men.png" type="image/x-icon" />
 	<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
@@ -9,7 +10,7 @@
 	<!--theme-style-->
 	<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
 	<!--//theme-style-->
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 	<!--fonts-->
@@ -57,7 +58,7 @@
 
 				<div class="ca-r">
 					<div class="cart box_1">
-						<a href="checkout.html">
+						<a href="checkout.jsp">
 							<h3> <div class="total">
 								<span class="simpleCart_total"></span> </div>
 								<img src="images/cart.png" alt=""/></h3>
@@ -74,7 +75,7 @@
 	<div class="container">
 		<div class="head-top">
 			<div class="logo">
-				<h1><a href="index.html">Men's Place</a></h1>
+				<h1><a href="index.jsp">Men's Place</a></h1>
 			</div>
 			<div class=" h_menu4">
 				<ul class="memenu skyblue">
@@ -85,13 +86,13 @@
 								<div class="col1">
 									<div class="h_nav">
 										<ul>
-											<li><a href="products.html">T-Shirts</a></li>
-											<li><a href="products.html">Polos</a></li>
-											<li><a href="products.html">Camisas</a></li>
-											<li><a href="products.html">Casacos</a></li>
-											<li><a href="products.html">Calças</a></li>
-											<li><a href="products.html">Bermudas</a></li>
-											<li><a href="products.html">Cuecas/Meias</a></li>
+											<li><a href="products.jsp">T-Shirts</a></li>
+											<li><a href="products.jsp">Polos</a></li>
+											<li><a href="products.jsp">Camisas</a></li>
+											<li><a href="products.jsp">Casacos</a></li>
+											<li><a href="products.jsp">Cal�as</a></li>
+											<li><a href="products.jsp">Bermudas</a></li>
+											<li><a href="products.jsp">Cuecas/Meias</a></li>
 
 										</ul>
 									</div>
@@ -99,17 +100,17 @@
 							</div>
 						</div>
 					</li>
-					<li class="grid"><a class="color2" href="#">Calçados</a>
+					<li class="grid"><a class="color2" href="#">Cal�ados</a>
 						<div class="mepanel">
 							<div class="row">
 								<div class="col1">
 									<div class="h_nav">
 										<ul>
-											<li><a href="products.html">Tênis</a></li>
-											<li><a href="products.html">Sapatos</a></li>
-											<li><a href="products.html">Sandálias</a></li>
-											<li><a href="products.html">Mocassim</a></li>
-											<li><a href="products.html">Botas</a></li>
+											<li><a href="products.jsp">T�nis</a></li>
+											<li><a href="products.jsp">Sapatos</a></li>
+											<li><a href="products.jsp">Sand�lias</a></li>
+											<li><a href="products.jsp">Mocassim</a></li>
+											<li><a href="products.jsp">Botas</a></li>
 
 										</ul>
 									</div>
@@ -118,7 +119,7 @@
 						</div>
 					</li>
 					<li><a class="color4" href="login">Login</a></li>
-					<li><a class="color6" href="contact.html">Contato</a></li>
+					<li><a class="color6" href="contact.jsp">Contato</a></li>
 				</ul>
 			</div>
 
@@ -129,61 +130,52 @@
 	<!-- grow -->
 	<div class="grow">
 		<div class="container">
-			<h2>Registrar</h2>
+			<h2>Login</h2>
 		</div>
 	</div>
 	<!-- grow -->
 <!--content-->
-<div class=" container">
-<div class=" register">
-	
-		  	  <form> 
-				 <div class="col-md-6 register-top-grid">
-					<h3>Informações pessoais</h3>
-					 <div>
-						<span>Nome</span>
-						<input type="text"> 
-					 </div>
-					 <div>
-						<span>Sobrenome</span>
-						<input type="text"> 
-					 </div>
-					 <div>
-						 <span>Endereço de Email</span>
-						 <input type="text"> 
-					 </div>
-					   <a class="news-letter" href="#">
-						 <label class="checkbox"><input type="checkbox" checked=""><i> </i>Assine para promoções!</label>
-					   </a>
-					 </div>
-				     <div class="col-md-6 register-bottom-grid">
-						    <h3>Informações de senha</h3>
-							 <div>
-								<span>Senha</span>
-								<input type="password">
-							 </div>
-							 <div>
-								<span>Confirmar senha</span>
-								<input type="password">
-							 </div>
-							 <input type="submit" value="Criar">
-							
-					 </div>
-					 <div class="clearfix"> </div>
-				</form>
+<div class="container">
+		<div class="account">
+		<div class="account-pass">
+		<div class="col-md-8 account-top">
+			<form action="login">
+				
+			<div> 	
+				<span>Usu�rio</span>
+				<input name="usuario" type="text" > 
 			</div>
+			<div> 
+				<span >Senha</span>
+				<input name="senha" type="password">
+			</div>				
+				<input name="operacao" type="submit" value="entrar"> 
+				
+			</form>
+			<b>${msg}</b>
+			<br>
+			<a href="register.jsp" class="create">Crie uma conta</a>
+		</div>
+
+<div class="clearfix"> </div>
+		</div>
+	<div class="clearfix"> </div>
+	</div>
+	</div>
+
 </div>
+
 <!--//content-->
 <div class="footer">
 	<div class="container">
 		<div class="footer-top-at">
 
 			<div class="col-md-3 amet-sed">
-				<h4>MAIS INFORMAÇÕES</h4>
+				<h4>MAIS INFORMA��ES</h4>
 				<ul class="nav-bottom">
 					<li><a href="#">Como Comprar</a></li>
 					<li><a href="#">FAQ</a></li>
-					<li><a href="contact.html">Localização</a></li>
+					<li><a href="contact.jsp">Localiza��o</a></li>
 					<li><a href="#">Parcerias</a></li>
 				</ul>
 			</div>
@@ -191,7 +183,7 @@
 				<h4>PRODUTOS</h4>
 				<ul class="nav-bottom">
 					<li><a href="#">Roupas</a></li>
-					<li><a href="#">Calçados</a></li>
+					<li><a href="#">Cal�ados</a></li>
 				</ul>
 
 			</div>
@@ -215,16 +207,15 @@
 			<div class="col-md-3 amet-sed ">
 				<h4>ENTRE EM CONTATO</h4>
 				<p>Anuar Daher</p>
-				<p>Aparecida de Goiânia</p>
+				<p>Aparecida de Goi�nia</p>
 				<p>Whatsapp :  (62) 9361-1900</p>
 			</div>
 			<div class="clearfix"> </div>
 		</div>
 	</div>
 	<div class="footer-class">
-		<p> © 2016 Men's Place. Todos os direitos reservados</a> </p>
+		<p> � 2016 Men's Place. Todos os direitos reservados</a> </p>
 	</div>
 </div>
 </body>
 </html>
-			
