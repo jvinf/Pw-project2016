@@ -1,7 +1,6 @@
 package project2016;
-/**
- * Created by Anuar Daher on 19/07/2016.
- */
+ 
+ 
 import com.sun.javafx.binding.StringFormatter;
 
 import java.sql.SQLException;
@@ -19,7 +18,7 @@ public class ClienteDao {
     private static EntityManager em;
 
     public static void inclui(String nome, String sobrenome, String email, String senha, String testesenha){
-        //Obter "conexão".
+        //Obter "conexao".
         em = emf.createEntityManager();
 
         em.getTransaction().begin();
