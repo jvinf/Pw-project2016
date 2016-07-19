@@ -1,3 +1,4 @@
+package project2016;
 /**
  * Created by Anuar Daher on 19/07/2016.
  */
@@ -10,7 +11,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-@WebServlet("/curso")
+@WebServlet("/client")
 public class ClienteController extends HttpServlet {
 
     private String valor(HttpServletRequest req, String param, String padrao) {
@@ -33,19 +34,19 @@ public class ClienteController extends HttpServlet {
             String testesenha = valor (req, "testesenha","");
 
 
-            if (op.equals("incluir")) {
+            if (op.equals("criar")) {
                 do {
                     if (!senha.equals(testesenha)) {
-                        msg = "Senha de confirma√ß√£o inv√°lida!";
+                        msg = "Senha de confirmaÁ„o inv·lida!";
                     }
                 }
             while (senha.equals(testesenha)) ;
             ClienteDao.inclui(nome, sobrenome, email, senha, testesenha);
-                msg = "Inclus√£o realizada com sucesso.";
+                msg = "Inclus„o realizada com sucesso.";
             }
 
         else{
-            throw new IllegalArgumentException("Opera√ß√£o \"" + op + "\" n√£o suportada.");
+            throw new IllegalArgumentException("OperaÁ„o \"" + op + "\" n„o suportada.");
         }
 
             req.setAttribute("msg", msg);
@@ -53,7 +54,7 @@ public class ClienteController extends HttpServlet {
             List<Cliente> clientes = ClienteDao.listar();
             req.setAttribute("clientes", clientes);
 
-            req.getRequestDispatcher("Register.jsp").forward(req, resp);
+            req.getRequestDispatcher("register.jsp").forward(req, resp);
         } catch (Exception e) {
             e.printStackTrace(resp.getWriter());
         }

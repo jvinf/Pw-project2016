@@ -89,7 +89,7 @@
 											<li><a href="products.jsp">Polos</a></li>
 											<li><a href="products.jsp">Camisas</a></li>
 											<li><a href="products.jsp">Casacos</a></li>
-											<li><a href="products.jsp">CalÃ§as</a></li>
+											<li><a href="products.jsp">Calças</a></li>
 											<li><a href="products.jsp">Bermudas</a></li>
 											<li><a href="products.jsp">Cuecas/Meias</a></li>
 
@@ -99,15 +99,15 @@
 							</div>
 						</div>
 					</li>
-					<li class="grid"><a class="color2" href="#">CalÃ§ados</a>
+					<li class="grid"><a class="color2" href="#">Calçados</a>
 						<div class="mepanel">
 							<div class="row">
 								<div class="col1">
 									<div class="h_nav">
 										<ul>
-											<li><a href="products.jsp">TÃªnis</a></li>
+											<li><a href="products.jsp">Tênis</a></li>
 											<li><a href="products.jsp">Sapatos</a></li>
-											<li><a href="products.jsp">SandÃ¡lias</a></li>
+											<li><a href="products.jsp">Sandálias</a></li>
 											<li><a href="products.jsp">Mocassim</a></li>
 											<li><a href="products.jsp">Botas</a></li>
 
@@ -117,7 +117,7 @@
 							</div>
 						</div>
 					</li>
-					<li><a class="color4" href="login.html">Login</a></li>
+					<li><a class="color4" href="login.jsp">Login</a></li>
 					<li><a class="color6" href="contact.jsp">Contato</a></li>
 				</ul>
 			</div>
@@ -125,13 +125,7 @@
 			<div class="clearfix"> </div>
 		</div>
 	</div>
-
-	<!-- grow -->
-	<div class="grow">
-		<div class="container">
-			<h2>ConfirmaÃ§Ã£o</h2>
-		</div>
-	</div>
+</div>
 	<!-- grow -->
 <div class="container">
 	<div class="check">	 
@@ -155,13 +149,13 @@
 					   <div class="cart-item-info">
 						<h3><a href="#">Bota Black Boots</a><span>Modelo: 3578</span></h3>
 						<ul class="qty">
-							<li><p>NÃºmero: 42</p></li>
+							<li><p>Número: 42</p></li>
 							<li><p>Quantidade : 1</p></li>
 						</ul>
 						
 							 <div class="delivery">
 							 <p>Valor: R$ 239,00</p>
-							 <span>Entrega em 2-3 dias Ãºteis</span>
+							 <span>Entrega em 2-3 dias úteis</span>
 							 <div class="clearfix"></div>
 				        </div>	
 					   </div>
@@ -191,7 +185,7 @@
 						</ul>
 							 <div class="delivery">
 							 <p>Valor: R$ 150,00</p>
-							 <span>Entrega em 2-3 dias Ãºteis</span>
+							 <span>Entrega em 2-3 dias uteis</span>
 							 <div class="clearfix"></div>
 				        </div>	
 					   </div>
@@ -222,10 +216,10 @@
 			 <div class="clearfix"></div>
 			 <a class="order" href="#">COMPRAR</a>
 			 <div class="total-item">
-				 <h3>OPÃ‡Ã•ES</h3>
+				 <h3>OPÇÕ•ES</h3>
 				 <h4>CUPONS</h4>
 				 <a class="cpns" href="#">Aplicar Cupom</a>
-				 <p><a href="#">FaÃ§a Login</a> Para usar um cupom</p>
+				 <p><a href="#">Faça Login</a> Para usar um cupom</p>
 			 </div>
 			</div>
 		
@@ -235,26 +229,26 @@
 
 
 <!--//RODAPÃ‰-->
-	<div class="footer">
-		<div class="container">
+<div class="footer">
+				<div class="container">
 			<div class="footer-top-at">
-
+			
 				<div class="col-md-3 amet-sed">
-					<h4>MAIS INFORMAÃ‡Ã•ES</h4>
-					<ul class="nav-bottom">
+				<h4>MAIS INFORMAÇÕ•ES</h4>
+				<ul class="nav-bottom">
 						<li><a href="#">Como Comprar</a></li>
 						<li><a href="#">FAQ</a></li>
-						<li><a href="contact.jsp">LocalizaÃ§Ã£o</a></li>
+						<li><a href="contact.jsp">Localização</a></li>
 						<li><a href="#">Parcerias</a></li>
-					</ul>
+					</ul>	
 				</div>
 				<div class="col-md-3 amet-sed">
 					<h4>PRODUTOS</h4>
 					<ul class="nav-bottom">
 						<li><a href="#">Roupas</a></li>
-						<li><a href="#">CalÃ§ados</a></li>
+						<li><a href="#">Calçados</a></li>
 					</ul>
-
+					
 				</div>
 				<div class="col-md-3 amet-sed">
 					<h4>NOVIDADES</h4>
@@ -269,23 +263,23 @@
 								<input type="submit" value="Inscrever">
 							</form>
 						</div>
-						<div class="clearfix"> </div>
-					</div>
-
+							<div class="clearfix"> </div>
+			</div>
+					
 				</div>
 				<div class="col-md-3 amet-sed ">
-					<h4>ENTRE EM CONTATO</h4>
+				<h4>ENTRE EM CONTATO</h4>
 					<p>Anuar Daher</p>
-					<p>Aparecida de GoiÃ¢nia</p>
+					<p>Aparecida de Goiânia</p>
 					<p>Whatsapp :  (62) 9361-1900</p>
 				</div>
 				<div class="clearfix"> </div>
 			</div>
 		</div>
 		<div class="footer-class">
-			<p> Â© 2016 Men's Place. Todos os direitos reservados<a href="http://w3layouts.com/" target="_blank">W3layouts</a> </p>
+		<p> © 2016 Men's Place. Todos os direitos reservados</a> </p>
 		</div>
-	</div>
+		</div>
 </body>
 </html>
 			

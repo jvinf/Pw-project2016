@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<%@page import="Cliente"%>
+<%@page import="project2016.Cliente"%>
 <%@page import="java.util.List"%>
 <html>
 <head>
@@ -91,7 +91,7 @@
 											<li><a href="products.jsp">Polos</a></li>
 											<li><a href="products.jsp">Camisas</a></li>
 											<li><a href="products.jsp">Casacos</a></li>
-											<li><a href="products.jsp">CalÃ§as</a></li>
+											<li><a href="products.jsp">Calças</a></li>
 											<li><a href="products.jsp">Bermudas</a></li>
 											<li><a href="products.jsp">Cuecas/Meias</a></li>
 
@@ -101,15 +101,15 @@
 							</div>
 						</div>
 					</li>
-					<li class="grid"><a class="color2" href="#">CalÃ§ados</a>
+					<li class="grid"><a class="color2" href="#">Calçados</a>
 						<div class="mepanel">
 							<div class="row">
 								<div class="col1">
 									<div class="h_nav">
 										<ul>
-											<li><a href="products.jsp">TÃªnis</a></li>
+											<li><a href="products.jsp">Tênis</a></li>
 											<li><a href="products.jsp">Sapatos</a></li>
-											<li><a href="products.jsp">SandÃ¡lias</a></li>
+											<li><a href="products.jsp">Sandálias</a></li>
 											<li><a href="products.jsp">Mocassim</a></li>
 											<li><a href="products.jsp">Botas</a></li>
 
@@ -119,7 +119,7 @@
 							</div>
 						</div>
 					</li>
-					<li><a class="color4" href="login">Login</a></li>
+					<li><a class="color4" href="login.jsp">Login</a></li>
 					<li><a class="color6" href="contact.jsp">Contato</a></li>
 				</ul>
 			</div>
@@ -139,9 +139,9 @@
 <div class=" container">
 <div class=" register">
 	
-		  	  <form> 
+		  	  <form action="client"> 
 				 <div class="col-md-6 register-top-grid">
-					<h3>InformaÃ§Ãµes pessoais</h3>
+					<h3>Informações pessoais</h3>
 					 <div>
 						<span>Nome</span>
 						<input name="nome" type="text">
@@ -151,15 +151,15 @@
 						<input name="sobrenome" type="text">
 					 </div>
 					 <div>
-						 <span>EndereÃ§o de Email</span>
+						 <span>Endereço de Email</span>
 						 <input name="email" type="text">
 					 </div>
 					   <a class="news-letter" href="#">
-						 <label class="checkbox"><input type="checkbox" checked=""><i> </i>Assine para promoÃ§Ãµes!</label>
+						 <label class="checkbox"><input type="checkbox" checked=""><i> </i>Assine para promoções!</label>
 					   </a>
 					 </div>
 				     <div class="col-md-6 register-bottom-grid">
-						    <h3>InformaÃ§Ãµes de senha</h3>
+						    <h3>Informações de senha</h3>
 							 <div>
 								<span>Senha</span>
 								<input name="senha" type="password">
@@ -168,7 +168,7 @@
 								<span>Confirmar senha</span>
 								<input name="testasenha" type="password">
 							 </div>
-							 <input name="operacao" type="submit" value="Criar">
+							 <input name="operacao" type="submit" value="criar">
 							
 					 </div>
 					 <div class="clearfix"> </div>
@@ -181,11 +181,11 @@
 		<div class="footer-top-at">
 
 			<div class="col-md-3 amet-sed">
-				<h4>MAIS INFORMAÃ‡Ã•ES</h4>
+				<h4>MAIS INFORMÇÕES</h4>
 				<ul class="nav-bottom">
 					<li><a href="#">Como Comprar</a></li>
 					<li><a href="#">FAQ</a></li>
-					<li><a href="contact.jsp">LocalizaÃ§Ã£o</a></li>
+					<li><a href="contact.jsp">Localização</a></li>
 					<li><a href="#">Parcerias</a></li>
 				</ul>
 			</div>
@@ -193,7 +193,7 @@
 				<h4>PRODUTOS</h4>
 				<ul class="nav-bottom">
 					<li><a href="#">Roupas</a></li>
-					<li><a href="#">CalÃ§ados</a></li>
+					<li><a href="#">Calçados</a></li>
 				</ul>
 
 			</div>
@@ -217,14 +217,14 @@
 			<div class="col-md-3 amet-sed ">
 				<h4>ENTRE EM CONTATO</h4>
 				<p>Anuar Daher</p>
-				<p>Aparecida de GoiÃ¢nia</p>
+				<p>Aparecida de Goiânia</p>
 				<p>Whatsapp :  (62) 9361-1900</p>
 			</div>
 			<div class="clearfix"> </div>
 		</div>
 	</div>
 	<div class="footer-class">
-		<p> Â© 2016 Men's Place. Todos os direitos reservados</a> </p>
+		<p> © 2016 Men's Place. Todos os direitos reservados</a> </p>
 	</div>
 </div>
 </body>

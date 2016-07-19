@@ -1,6 +1,5 @@
-/**
- * Created by Anuar Daher on 19/07/2016.
- */
+package project2016;
+ 
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;

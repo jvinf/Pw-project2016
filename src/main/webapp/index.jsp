@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+<meta charset="utf-8">
 <title>Men's Place</title>  <link rel="icon" href="images/men.png" type="image/x-icon" />
 <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
@@ -89,7 +90,7 @@
 										<li><a href="products.jsp">Polos</a></li>
 										<li><a href="products.jsp">Camisas</a></li>
 										<li><a href="products.jsp">Casacos</a></li>
-										<li><a href="products.jsp">CalÃ§as</a></li>
+										<li><a href="products.jsp">Calças</a></li>
 										<li><a href="products.jsp">Bermudas</a></li>
 										<li><a href="products.jsp">Cuecas/Meias</a></li>
 										
@@ -99,15 +100,15 @@
 						  </div>
 						</div>
 					</li>
-				    <li class="grid"><a class="color2" href="#">CalÃ§ados</a>
+				    <li class="grid"><a class="color2" href="#">Calçados</a>
 					  	<div class="mepanel">
 						<div class="row">
 							<div class="col1">
 								<div class="h_nav">
 									<ul>
-										<li><a href="products.jsp">TÃªnis</a></li>
+										<li><a href="products.jsp">Tênis</a></li>
 										<li><a href="products.jsp">Sapatos</a></li>
-										<li><a href="products.jsp">SandÃ¡lias</a></li>
+										<li><a href="products.jsp">Sandálias</a></li>
 										<li><a href="products.jsp">Mocassim</a></li>
 										<li><a href="products.jsp">Botas</a></li>
 
@@ -149,7 +150,7 @@
 					
 						<div class="banner-text">
 							<h3>Os Melhores Produtos!</h3>
-						<p>Na Men's Place, vocÃª encontra os melhores produtos das melhores marcas!</p>
+						<p>Na Men's Place, você encontra os melhores produtos das melhores marcas!</p>
 						
 						</div>
 				
@@ -158,7 +159,7 @@
 					
 						<div class="banner-text">
 							<h3>Qualidade em Primeiro Lugar!</h3>
-						<p>Aqui vocÃª encontra o melhor serviÃ§o em atendimento ao cliente!</p>
+						<p>Aqui você encontra o melhor serviço em atendimento ao cliente!</p>
 												
 
 						</div>
@@ -166,8 +167,8 @@
 				</li>
 				<li>
 						<div class="banner-text">
-							<h3>Aproveite Nossas PromoÃ§Ãµes!</h3>
-						<p>Em compras acima de 200R$, o frete Ã© grÃ¡tis!</p>
+							<h3>Aproveite Nossas Promoções!</h3>
+						<p>Em compras acima de 200R$, o frete é grátis!</p>
 								
 
 						</div>
@@ -278,11 +279,11 @@
 						<a href="single.jsp" class="b-link-stripe b-animate-go  thickbox"><img class="img-responsive" src="images/calca1.jpg" alt="">
 							<div class="b-wrapper">
 											<h3 class="b-animate b-from-left    b-delay03 ">
-												<span>CALÃ‡A DIESEL</span>
+												<span>CALÇ‡A DIESEL</span>
 											</h3>
 										</div>
 						</a>
-					<p><a href="single.jsp">CalÃ§a Diesel</a></p>
+					<p><a href="single.jsp">Calça Diesel</a></p>
 					<a href="#" class="item_add"><p class="number item_price"><i> </i>R$160,00</p></a>
 					</div>
 							<div class="clearfix"> </div>
@@ -292,18 +293,18 @@
 	</div>
 </div>
 
-<!-- RODAPÃ‰-->
+<!-- RODAPÉ‰-->
 
 <div class="footer">
 				<div class="container">
 			<div class="footer-top-at">
 			
 				<div class="col-md-3 amet-sed">
-				<h4>MAIS INFORMAÃ‡Ã•ES</h4>
+				<h4>MAIS INFORMAÇÕ•ES</h4>
 				<ul class="nav-bottom">
 						<li><a href="#">Como Comprar</a></li>
 						<li><a href="#">FAQ</a></li>
-						<li><a href="contact.jsp">LocalizaÃ§Ã£o</a></li>
+						<li><a href="contact.jsp">Localização</a></li>
 						<li><a href="#">Parcerias</a></li>
 					</ul>	
 				</div>
@@ -311,7 +312,7 @@
 					<h4>PRODUTOS</h4>
 					<ul class="nav-bottom">
 						<li><a href="#">Roupas</a></li>
-						<li><a href="#">CalÃ§ados</a></li>
+						<li><a href="#">Calçados</a></li>
 					</ul>
 					
 				</div>
@@ -335,14 +336,14 @@
 				<div class="col-md-3 amet-sed ">
 				<h4>ENTRE EM CONTATO</h4>
 					<p>Anuar Daher</p>
-					<p>Aparecida de GoiÃ¢nia</p>
+					<p>Aparecida de Goiânia</p>
 					<p>Whatsapp :  (62) 9361-1900</p>
 				</div>
 				<div class="clearfix"> </div>
 			</div>
 		</div>
 		<div class="footer-class">
-		<p> Â© 2016 Men's Place. Todos os direitos reservados</a> </p>
+		<p> © 2016 Men's Place. Todos os direitos reservados</a> </p>
 		</div>
 		</div>
 </body>

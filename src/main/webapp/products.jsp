@@ -89,7 +89,7 @@
 											<li><a href="products.jsp">Polos</a></li>
 											<li><a href="products.jsp">Camisas</a></li>
 											<li><a href="products.jsp">Casacos</a></li>
-											<li><a href="products.jsp">CalÃ§as</a></li>
+											<li><a href="products.jsp">Calças</a></li>
 											<li><a href="products.jsp">Bermudas</a></li>
 											<li><a href="products.jsp">Cuecas/Meias</a></li>
 
@@ -99,15 +99,15 @@
 							</div>
 						</div>
 					</li>
-					<li class="grid"><a class="color2" href="#">CalÃ§ados</a>
+					<li class="grid"><a class="color2" href="#">Calçados</a>
 						<div class="mepanel">
 							<div class="row">
 								<div class="col1">
 									<div class="h_nav">
 										<ul>
-											<li><a href="products.jsp">TÃªnis</a></li>
+											<li><a href="products.jsp">Tênis</a></li>
 											<li><a href="products.jsp">Sapatos</a></li>
-											<li><a href="products.jsp">SandÃ¡lias</a></li>
+											<li><a href="products.jsp">Sandálias</a></li>
 											<li><a href="products.jsp">Mocassim</a></li>
 											<li><a href="products.jsp">Botas</a></li>
 
@@ -117,7 +117,7 @@
 							</div>
 						</div>
 					</li>
-					<li><a class="color4" href="login">Login</a></li>
+					<li><a class="color4" href="login.jsp">Login</a></li>
 					<li><a class="color6" href="contact.jsp">Contato</a></li>
 				</ul>
 			</div>
@@ -160,7 +160,7 @@
 							</div>
 						</a>	
 						</div>
-						<p class="tun"><span>ChapÃ©u Black</span><br>Zeca Pagodinho</p>
+						<p class="tun"><span>Chapéu Black</span><br>Zeca Pagodinho</p>
 						<div class="ca-rt">
 							<a href="#" class="item_add"><p class="number item_price"><i> </i>R$200,00</p></a>						
 						</div>
@@ -177,7 +177,7 @@
 							</div>
 						</a>	
 						</div>
-						<p class="tun"><span>RelÃ³gio black and white</span><br>Crank</p>
+						<p class="tun"><span>Relógio black and white</span><br>Crank</p>
 						<div class="ca-rt">
 							<a href="#" class="item_add"><p class="number item_price"><i> </i>R$2500,00</p></a>						
 						</div>
@@ -237,7 +237,7 @@
 				<h4>O que o cliente diz sobre o site ?</h4>
 					<img class="img-responsive" src="images/cliente.jpeg" alt="">
 					<h6>Dilma</h6>
-					<p>Site otimo, com otima navegaÃ§Ã£o, pensado exatamente para o publico masculino, tem uma interface agradavel, estou procurando um presente para meu filho.</p>
+					<p>Site otimo, com otima navegação, pensado exatamente para o publico masculino, tem uma interface agradavel, estou procurando um presente para meu filho.</p>
 				</div>
 			</div>
 				<div class="clearfix"></div>
@@ -245,56 +245,56 @@
 	</div>
 <!-- products -->
 <div class="footer">
-	<div class="container">
-		<div class="footer-top-at">
-
-			<div class="col-md-3 amet-sed">
-				<h4>MAIS INFORMAÃ‡Ã•ES</h4>
+				<div class="container">
+			<div class="footer-top-at">
+			
+				<div class="col-md-3 amet-sed">
+				<h4>MAIS INFORMAÇÕ•ES</h4>
 				<ul class="nav-bottom">
-					<li><a href="#">Como Comprar</a></li>
-					<li><a href="#">FAQ</a></li>
-					<li><a href="contact.jsp">LocalizaÃ§Ã£o</a></li>
-					<li><a href="#">Parcerias</a></li>
-				</ul>
-			</div>
-			<div class="col-md-3 amet-sed">
-				<h4>PRODUTOS</h4>
-				<ul class="nav-bottom">
-					<li><a href="#">Roupas</a></li>
-					<li><a href="#">CalÃ§ados</a></li>
-				</ul>
-
-			</div>
-			<div class="col-md-3 amet-sed">
-				<h4>NOVIDADES</h4>
-				<div class="stay">
-					<div class="stay-left">
-						<form>
-							<input type="text" placeholder="Digite seu e-mail " required="">
-						</form>
-					</div>
-					<div class="btn-1">
-						<form>
-							<input type="submit" value="Inscrever">
-						</form>
-					</div>
-					<div class="clearfix"> </div>
+						<li><a href="#">Como Comprar</a></li>
+						<li><a href="#">FAQ</a></li>
+						<li><a href="contact.jsp">Localização</a></li>
+						<li><a href="#">Parcerias</a></li>
+					</ul>	
 				</div>
-
+				<div class="col-md-3 amet-sed">
+					<h4>PRODUTOS</h4>
+					<ul class="nav-bottom">
+						<li><a href="#">Roupas</a></li>
+						<li><a href="#">Calçados</a></li>
+					</ul>
+					
+				</div>
+				<div class="col-md-3 amet-sed">
+					<h4>NOVIDADES</h4>
+					<div class="stay">
+						<div class="stay-left">
+							<form>
+								<input type="text" placeholder="Digite seu e-mail " required="">
+							</form>
+						</div>
+						<div class="btn-1">
+							<form>
+								<input type="submit" value="Inscrever">
+							</form>
+						</div>
+							<div class="clearfix"> </div>
 			</div>
-			<div class="col-md-3 amet-sed ">
+					
+				</div>
+				<div class="col-md-3 amet-sed ">
 				<h4>ENTRE EM CONTATO</h4>
-				<p>Anuar Daher</p>
-				<p>Aparecida de GoiÃ¢nia</p>
-				<p>Whatsapp :  (62) 9361-1900</p>
+					<p>Anuar Daher</p>
+					<p>Aparecida de Goiânia</p>
+					<p>Whatsapp :  (62) 9361-1900</p>
+				</div>
+				<div class="clearfix"> </div>
 			</div>
-			<div class="clearfix"> </div>
 		</div>
-	</div>
-	<div class="footer-class">
-		<p> Â© 2016 Men's Place. Todos os direitos reservados</a> </p>
-	</div>
-</div>
+		<div class="footer-class">
+		<p> © 2016 Men's Place. Todos os direitos reservados</a> </p>
+		</div>
+		</div>
 </body>
 </html>
 			
